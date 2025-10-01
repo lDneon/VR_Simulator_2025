@@ -3,18 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FxTemporaire
+  - Coin
+  - Virus
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - Spawner Contact
-  - Placeable Surface
-  - Projectile
-  - Damageable
+  - Ground
+  - InspectableItem
   - 
   - 
   - 
@@ -35,7 +36,9 @@ TagManager:
   - 
   - 
   - 
-  - XR Simulation
+  - 
+  - 
+  - 
   - 
   m_SortingLayers:
   - name: Default
